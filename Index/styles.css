@@ -1,0 +1,40 @@
+.box {
+    border: 5px solid black;
+    width: 1487px;
+    height: 540px;
+    
+}
+
+.color {
+    background-color: rgb(136, 136, 136);
+}
+
+.text-box {
+    border: 5px solid rgb(27, 39, 255);
+    height: 40px;
+    width: 450px;
+    margin-left: 521px;
+    margin-top: 60px;
+    /* margin-right: 146px; */
+}
+
+.container {
+    display: flex;
+  }
+
+.text-box2 {
+    border: 2px black;
+    height: 200px;
+    width: 250px;
+    margin-left: 496px;
+}
+
+.text-box3 {
+    border: 2px black;
+    height: 200px;
+    width: 250px;
+}
+
+.centered-text {
+    text-align: center;
+}
