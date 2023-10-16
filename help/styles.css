@@ -1,0 +1,46 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: purple;
+}
+
+.flexing {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.box {
+    border: solid 5px purple;
+    height: 500px;
+    width: 100%;
+}
+
+.pad {
+    padding: 50px;
+}
+
+.small-box {
+    border: solid 5px purple;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    align-items: center;
+}
+
+.nav-link {
+    padding: 10px 20px;
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.content {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+
