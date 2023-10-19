@@ -4,47 +4,29 @@ body {
 
 .box {
     border: 20px solid black;
-    /* width: 100%; */
-    height: 540px; 
-    overflow: hidden;
+    background-color: rgb(151, 151, 151);
+    box-shadow: inset 0 0 0 10px rgb(105, 104, 104);
 }
 
-.cent-box {
+.center {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    width: 50%;
     text-align: center;
 }
 
-
-.grey {
-    background-color: rgb(147, 147, 147);
-
+.pad {
+    padding: 50px;
 }
 
 .text-box {
     border: 5px solid rgb(27, 39, 255);
-    height: 40px;
-    width: 450px;
-    margin-top: 60px;
-    margin-left: 33.333333%;
-}
-
-.container {
+    height: 50px;
+    padding: 5px;
+    width: fit-content;
     display: flex;
-    /* justify-content: center;
-    align-items: center; */
-}
-
-.text-box2 {
-    border: 0px rgb(0, 0, 0);
-    height: 200px;
-    width: 250px;
-}
-
-.centered-text {
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
+
