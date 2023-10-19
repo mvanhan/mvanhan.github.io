@@ -1,6 +1,10 @@
+body {
+    background-color: black;
+}
+
 .box {
     border: 20px solid black;
-    width: 100%;
+    /* width: 100%; */
     height: 540px; 
     overflow: hidden;
 }
@@ -12,13 +16,9 @@
     align-items: center;
     height: 100vh;
     width: 50%;
-    /* margin: 0;  */
     text-align: center;
 }
 
-.black {
-    background-color: rgb(0, 0, 0);
-}
 
 .grey {
     background-color: rgb(147, 147, 147);
@@ -35,17 +35,12 @@
 
 .container {
     display: flex;
+    /* justify-content: center;
+    align-items: center; */
 }
 
 .text-box2 {
     border: 0px rgb(0, 0, 0);
-    height: 200px;
-    width: 250px;
-    margin-left: 33.33%;
-}
-
-.text-box3 {
-    border: 0px black;
     height: 200px;
     width: 250px;
 }
