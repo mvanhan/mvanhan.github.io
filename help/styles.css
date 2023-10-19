@@ -7,11 +7,23 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    height: 10vh;
-    background-color: purple;
     font-family: sans-serif;
     font-size: 20px;
+    height: 10vh;
+    background-color: purple;
+}
+
+.left-image img {
+    width: 5%;
+}
+
+.nav-link {
+    padding: 10px 20px;
+    margin: 0 10px;
+    color: black;
+    text-decoration: none;
 }
 
 .flexing {
@@ -53,12 +65,7 @@ body {
     width: 200px;
 }
 
-.nav-link {
-    padding: 10px 20px;
-    color: black;
-    text-decoration: none;
-    margin: 0 10px;
-}
+
 
 .content {
     padding: 20px;
