@@ -2,7 +2,8 @@
 
 const nextConfig = {
     output: 'export',
-    basePath: 'mvanhan',
+    // assetPrefix: '/mvanhan.github.io',
+    // basePath: '/mvanhan.github.io',
 };
 
 module.exports = nextConfig;
