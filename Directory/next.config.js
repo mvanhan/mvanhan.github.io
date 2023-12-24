@@ -1,9 +1,18 @@
 /** @type {import('next').NextConfig} */
 
-const nextConfig = {
-    output: 'export',
-    // assetPrefix: '/mvanhan.github.io',
-    // basePath: '/mvanhan.github.io',
+
+const isProd = process.env.NODE_ENV === 'production';
+
+module.exports = {
+  output: 'export',
+  assetPrefix: isProd ? '/mvanhan.github.io/' : '',
+  basePath: isProd ? '/mvanhan.github.io' : '',
 };
 
-module.exports = nextConfig;
+// const nextConfig = {
+//     output: 'export',
+//     // assetPrefix: '/mvanhan.github.io',
+//     // basePath: '/mvanhan.github.io',
+// };
+
+// module.exports = nextConfig;
