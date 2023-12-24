@@ -1,6 +1,6 @@
 "use client"
 import { useContext } from 'react';
-import { opiumOutput } from '@/app/contexts';
+import { opiumOutput } from '@/pages/contexts';
 
 const Opium = () => {
 

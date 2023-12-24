@@ -1,7 +1,7 @@
 "use client"
 import { useState } from 'react';
 import { useContext } from 'react';
-import { opiumOutput } from '@/app/contexts';
+import { opiumOutput } from '@/pages/contexts';
 
 
 export default function Coolness() {
